@@ -25,6 +25,7 @@ class Solution:
                 else:
                     for x in prev: # parenthesis
                         counter[x] += prev[x] * num
+                    prev = None
             elif self.formula[idx] == "(": # reach a parenthesis
                 prev , idx = self.parse(idx + 1)
             elif self.formula[idx] == ")": # finishing a parenthesis, output our count
@@ -37,4 +38,7 @@ class Solution:
                 counter[atom] += 1 # by default we have one atom
                 prev = atom
             idx += 1
+        if prev is not None and not type(prev) == str:
+            for x in prev: # deal with last parenthesis
+                counter[x] += prev[x]
         return counter , idx

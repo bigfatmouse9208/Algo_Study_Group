@@ -8,4 +8,5 @@
 [Week 5 Divide and Conquer](https://github.com/bigfatmouse9208/Algo_Study_Group/tree/master/Week5_Divide_and_Conquer)  
 [Week 6 Dynamic Programming](https://github.com/bigfatmouse9208/Algo_Study_Group/tree/master/Week6_DP)  
 [Week 7 Algorithm in Graph](https://github.com/bigfatmouse9208/Algo_Study_Group/tree/master/Week7_Graph)  
+[Week 8 Bit Manipulation](https://github.com/bigfatmouse9208/Algo_Study_Group/tree/master/Week8_Bit_Manipulation)
 
